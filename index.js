@@ -1,10 +1,10 @@
 var readLineSync = require('readline-sync');
 var userName = readLineSync.question('May i have your Name?')
-var welcomeMessage = 'Welcome ' + userName + ' Lets see if you are a Naruto fan or not';
+var welcomeMessage = 'Welcome ' + userName + ' Lets see how well you know me';
 let score = 0;
 console.log(welcomeMessage);
 
-var narutoQuestions = [
+var Questions = [
   {
     question:'What is my name?',
     answer:'Swapnil'
@@ -31,8 +31,8 @@ function play(question,answer){
   }
 }
 
-for(let i = 0;i<narutoQuestions.length;i++){
-  let currentQuestion = narutoQuestions[i];
+for(let i = 0;i<Questions.length;i++){
+  let currentQuestion = Questions[i];
   play(currentQuestion.question,currentQuestion.answer);
 }
 
