@@ -1,2 +1,2 @@
-# CLI App
- This app tests how well you know me
+# CLI Quiz App
+ This App will quiz you about Naruto
