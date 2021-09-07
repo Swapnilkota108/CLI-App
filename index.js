@@ -17,6 +17,15 @@ var Questions = [
     question:'What is my favorite color?',
     answer:'Blue'
   },
+  {
+    question:'What is my favorite food?',
+    answer:'Icecream'
+  },
+   {
+    question:'What is my zodiac sign?',
+    answer:'Cancer'
+  },
+  
   
 ]
 
