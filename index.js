@@ -18,13 +18,13 @@ var Questions = [
     answer:'Blue'
   },
   {
-    question:'What is my favorite food?',
-    answer:'Icecream'
+    question:'What is my favorite place to travel?',
+    answer:'Dubai'
   },
-   {
-    question:'What is my zodiac sign?',
-    answer:'Cancer'
-  },
+  {
+    question:'What is my age?',
+    answer:'19'
+  }
   
   
 ]
