@@ -1,10 +1,10 @@
-var readLineSync = require('readline-sync');
-var userName = readLineSync.question('May i have your Name?')
-var welcomeMessage = 'Welcome ' + userName + ' Lets see how well you know me';
+let readLineSync = require('readline-sync');
+let userName = readLineSync.question('May i have your Name?')
+let welcomeMessage = 'Welcome ' + userName + ' Lets see how well you know me';
 let score = 0;
 console.log(welcomeMessage);
 
-var Questions = [
+let Questions = [
   {
     question:'What is my name?',
     answer:'Swapnil'
@@ -29,7 +29,7 @@ var Questions = [
   
 ]
 
-function play(question,answer){
+let play = (question,answer) => {
   let userAnswer = readLineSync.question(question);
   if(answer===userAnswer){
     console.log('Corrrect!');
